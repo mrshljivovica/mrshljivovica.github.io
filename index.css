@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B2A;
+    padding-bottom: 30px;
+  }
+
+#header{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 5em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+.usrs-header{
+    color: white;
+    padding-top: 30px;
+    border-bottom: solid 2px white;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.usrs{
+    display: block;
+    text-align:center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.user{
+    opacity: 0;
+    color: white;
+    text-align:left;
+    display:inline-block;
+    margin: 30px 2%;
+    width: 25%;
+    min-width: 300px;
+}
+.u-con{
+    text-align:left;
+    background-color: #657381;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.u-con-animation{
+    animation: fadeIn 3s both;
+    -webkit-animation: fadeIn 3s both;
+    -moz-animation: fadeIn 3s both;
+    -o-animation: fadeIn 3s both;
+}
+.u-con p{
+    color: aliceblue;
+    padding: auto;
+}
+
+.parallax {
+    background-image: url("imgs/trees-each-other-forest-covered-by-creeping-mist.jpg");
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
